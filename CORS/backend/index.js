@@ -7,7 +7,7 @@ const app= express()
 app.get('/',(req,res)=>{
     res.send('Hello World')
 })
-app.get('/book',(req,res)=>{
+app.get('/api/users',(req,res)=>{
     res.send(data)
 })
 const port = 4000
